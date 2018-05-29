@@ -8,16 +8,14 @@ import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 
-/**
- * Servlet Filter implementation class MyFirstFilter
- */
+
 public class MyFirstFilter implements Filter {
 	//Filter链的响应是通过web.xml中的顺序来决定的，哪个在前面，就先响应哪个Filter
   // Filter链响应过程：先初始化两个Filter，然后是第一个Filter中的请求->第二个Filter中的请求->
 	//Servlet的doget/dopost->第一个Filter中的响应->第二个Filter中的响应，这就形成了一条链
 	public void init(FilterConfig fConfig) throws ServletException {
 		System.out.println("过滤器1...init()");
-		//gitTest 哈哈哈哈哈哈哈哈哈
+           //在eclipse中修改，测试
 	}
 	
 
