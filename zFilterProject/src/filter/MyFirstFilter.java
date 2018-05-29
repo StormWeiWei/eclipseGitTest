@@ -17,7 +17,7 @@ public class MyFirstFilter implements Filter {
 	//Servlet的doget/dopost->第一个Filter中的响应->第二个Filter中的响应，这就形成了一条链
 	public void init(FilterConfig fConfig) throws ServletException {
 		System.out.println("过滤器1...init()");
-		
+		//git
 	}
 	
 
