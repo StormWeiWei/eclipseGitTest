@@ -18,6 +18,7 @@ public class MyFirstFilter implements Filter {
 	public void init(FilterConfig fConfig) throws ServletException {
 		System.out.println("过滤器1...init()");
 		//gitTest
+		//我我我我
 	}
 	
 
